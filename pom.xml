@@ -33,7 +33,7 @@
 			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
 	</distributionManagement>
-
+	<!-- For future reference: http://stackoverflow.com/a/14013645/1569084 -->
 	<build>
 		<plugins>
 			<plugin>
