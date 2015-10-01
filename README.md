@@ -32,4 +32,4 @@ To download this dependency just add this to the pom.xml
 
 * * *
 
-###### Published with his permission
+###### Published with permission of David Ekholm (david@jalbum.net).
