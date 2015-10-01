@@ -1,3 +1,4 @@
+##### Original author David Ekholm (david@jalbum.net) http://www.datadosen.se/riverlayout/
 ## RiverLayout - a simple and flexible Java Layout Manager
 Java is great but but designing user interfaces can be a headache, especially forms. Layout managers like FlowLayout and BorderLayout are easy to understand, but rather limited, and how often do you want components to wrap to the next row if a window is narrowed? (as is the case with FlowLayout). GridBagLayout is flexible all right, but apart from being overly complex and requiring one to write essays, one cannot easily modify the layout, say add a component in the middle, without having to adjust cell coordinates for other components.
 
@@ -12,6 +13,23 @@ RiverLayout is released under the LGPL licence. You may therefore freely use it 
 1.1 (2005-05-25) -Bugfix: JScrollPanes were oversized (sized to their containing component) if the container containing the JScrollPane was resized.
 1.0 (2005-04-24) Initial release
 
+## Usage
+To download this dependency just add this to the pom.xml
 
-##### Original author David Ekholm (david@jalbum.net) http://www.datadosen.se/riverlayout/
+	<repositories>
+		<repository>
+			<id>RiverLayout-mvn-repo</id>
+			<url>https://raw.github.com/Deses/RiverLayout/mvn-repo/</url>
+		</repository>
+	</repositories>
+	<dependencies>
+		<dependency>
+			<groupId>se.datadosen.riverlayout</groupId>
+			<artifactId>riverlayout</artifactId>
+			<version>1.1</version>
+		</dependency>
+	</dependencies>
+
+* * *
+
 ###### Published with his permission
