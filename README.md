@@ -10,8 +10,8 @@ This is how RiverLayout works. Without further talking, look at the example belo
 RiverLayout is released under the LGPL licence. You may therefore freely use it in both non-commerical and commercial applications and you don't need to open up your source code. Improvements made to RiverLayout should however be returned to the project for the benefit of everyone.
 
 ## Release history
-1.1 (2005-05-25) -Bugfix: JScrollPanes were oversized (sized to their containing component) if the container containing the JScrollPane was resized.
-1.0 (2005-04-24) Initial release
+ - 1.1 (2005-05-25) -Bugfix: JScrollPanes were oversized (sized to their containing component) if the container containing the JScrollPane was resized.
+ - 1.0 (2005-04-24) Initial release
 
 ## Usage
 To download this dependency just add this to the pom.xml
