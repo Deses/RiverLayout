@@ -1,4 +1,5 @@
 ##### Original author David Ekholm (david@jalbum.net) http://www.datadosen.se/riverlayout/
+Republished here so we can have an easy way to use this lib in a Maven project.
 ## RiverLayout - a simple and flexible Java Layout Manager
 Java is great but but designing user interfaces can be a headache, especially forms. Layout managers like FlowLayout and BorderLayout are easy to understand, but rather limited, and how often do you want components to wrap to the next row if a window is narrowed? (as is the case with FlowLayout). GridBagLayout is flexible all right, but apart from being overly complex and requiring one to write essays, one cannot easily modify the layout, say add a component in the middle, without having to adjust cell coordinates for other components.
 
